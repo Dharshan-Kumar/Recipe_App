@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Recipe App</title>
+    <link rel="icon"  href="https://cdn-icons-png.flaticon.com/128/1404/1404945.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="top">
+                <span class="light-dark-mode">
+                    <i class="fa-solid fa-sun"></i>
+                </span>
+                <span class="search-container">
+                    <input class="search-input" type="text" placeholder="Search meal...">
+                    <span class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="fav-meals-container">
+                <h2>Favorite Meals</h2>
+                <div class="fav-meals">
+                    <!-- Every meal which is liked will be added over here -->
+                </div>
+            </div>
+        </div>
+        <div class="meals-container">
+            <h2>Random Meal</h2>
+            <div class="meal">
+                <!-- Random Meal gets generated over here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="pop-up-container">
+        <div class="pop-up">
+            <i class="fa-solid fa-x"></i>
+            <div class="pop-up-inner">
+                <!-- 
+                    div with class left holds image and name
+                    div with class right holds instruction and ingredients
+                -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
